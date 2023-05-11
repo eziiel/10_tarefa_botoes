@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.primeira-tarefa{
+  width: 50rem;
+  height: 10rem;
+  background: red;
+  padding: 5rem; 
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.container-button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+.buttonClass {
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  background: #a1a1a1;
+  cursor: pointer;
+}
+
+.buttonClass:hover {
+  background: #adad;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+}
